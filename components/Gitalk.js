@@ -4,8 +4,6 @@ import GitalkComponent from 'gitalk/dist/gitalk-component'
 
 const Gitalk = ({ frontMatter }) => {
   console.log(frontMatter)
-  console.log("id："+frontMatter.id)
-  console.log("title："+frontMatter.title)
   return <GitalkComponent options={{
     id: frontMatter.id,
     title: frontMatter.title,
