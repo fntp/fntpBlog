@@ -22,7 +22,7 @@ const Footer = ({ siteInfo }) => {
                 © {`${copyrightDate}`}
             </div>
 
-            <div className='text-xs font-serif'>Powered By <a href='https://github.com/tangly1024/NotionNext' className='underline text-gray-500 dark:text-gray-300'>NotionNext</a></div>
+            <div className='text-xs font-serif'>Powered By <a href='https://github.com/fntp' className='underline text-gray-500 dark:text-gray-300'>Polofox</a></div>
 
             {BLOG.BEI_AN && <><i className='fas fa-shield-alt' /> <a href='https://beian.miit.gov.cn/' className='mr-2'>{BLOG.BEI_AN}</a><br /></>}
 
